@@ -1,0 +1,23 @@
+{
+  "name": "product-swatches-slider",
+  "version": "1.0.0",
+  "description": "This plugin show a grouped product content slider in the archive product page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/scss --output assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3d0/product-swatches-slider.git"
+  },
+  "author": "Lorenzo De Donato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d3d0/product-swatches-slider/issues"
+  },
+  "homepage": "https://github.com/d3d0/product-swatches-slider#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
