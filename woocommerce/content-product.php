@@ -67,7 +67,7 @@ if( $product->is_type('simple') ) {
 						$first_image_image =  wp_get_attachment_image($attachment_id, 'full');
 					}
 					// get first image
-					if (!$_product->get_image_id()) { $image_url = '../wp-content/uploads/woocommerce-placeholder-600x600.png';}
+					if (!$_product->get_image_id()) { $image_url = '../wp-content/uploads/woocommerce-placeholder.png';}
 					else { $image_url = wp_get_attachment_url( $_product->get_image_id() ); }
 					?>
 					<div class="slick-container">
@@ -168,11 +168,15 @@ if( $product->is_type('simple') ) {
 				foreach ($variations as $key => $value) {
 					// var_dump($key, $value);
 					$current = $key+1;
+
+					if (!$value['image']['url']) { $image_url = '../wp-content/uploads/woocommerce-placeholder.png';}
+					else { $image_url = $value['image']['url']; }
+
 					?>
 					<div class="slick-container">
 
 						<div class="content-product__img__container">
-							<img class="content-product__img__img" src="<?php echo $value['image']['url']; ?>" alt="">
+							<img class="content-product__img__img" src="<?php echo $image_url; ?>" alt="">
 							<?php if ($count > 1 ) { ?>
 								<div class="content-product__counter"><?php echo  $current.' of '.$count; ?></div>
 							<?php } ?>
