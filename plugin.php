@@ -31,7 +31,7 @@ function plugin_init(){
     	wp_enqueue_script( 'slickjs', plugin_dir_url(__FILE__) . 'assets/js/slick.min.js', array( 'jquery' ), '1.6.0', true );
     	wp_enqueue_script( 'slickjs-init', plugin_dir_url(__FILE__) . 'assets/js/slick-init.js', array( 'slickjs' ), '1.6.0', true );
     	wp_enqueue_style( 'slickcss', plugin_dir_url(__FILE__) . 'assets/css/slick.css', '1.6.0', 'all');
-    	wp_enqueue_style( 'customcsstheme', plugin_dir_url(__FILE__) . 'assets/css/custom.css');
+    	wp_enqueue_style( 'customcsstheme', plugin_dir_url(__FILE__) . 'assets/css/style.css');
     	// wp_enqueue_style( 'slickcsstheme', plugin_dir_url(__FILE__) . 'assets/css/slick-theme.css', '1.6.0', 'all');
     }
 
