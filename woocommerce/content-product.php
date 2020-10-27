@@ -82,9 +82,10 @@ if( $product->is_type('simple') ) {
 								<div class="content-product__counter"><?php echo  $current.' of '.$count; ?></div>
 							<?php } ?>
 							<?php
-								if( defined( 'YITH_WCWL' ) && ! function_exists( 'yith_wcwl_add_wishlist_to_loop' ) ){
-									echo do_shortcode( '[yith_wcwl_add_to_wishlist product_id="'. $_product->get_id() .'"]' );
-								}
+							// yith wishlist
+							if( defined( 'YITH_WCWL' ) && ! function_exists( 'yith_wcwl_add_wishlist_to_loop' ) ){
+								echo do_shortcode( '[yith_wcwl_add_to_wishlist product_id="'. $_product->get_id() .'"]' );
+							}
 							?>
 						</div>
 
@@ -181,9 +182,10 @@ if( $product->is_type('simple') ) {
 								<div class="content-product__counter"><?php echo  $current.' of '.$count; ?></div>
 							<?php } ?>
 							<?php
-								if( defined( 'YITH_WCWL' ) && ! function_exists( 'yith_wcwl_add_wishlist_to_loop' ) ){
-									echo do_shortcode( '[yith_wcwl_add_to_wishlist product_id="'. $product->get_id() .'"]' );
-								}
+							// yith wishlist
+							if( defined( 'YITH_WCWL' ) && ! function_exists( 'yith_wcwl_add_wishlist_to_loop' ) ){
+								echo do_shortcode( '[yith_wcwl_add_to_wishlist product_id="'. $product->get_id() .'"]' );
+							}
 							?>
 						</div>
 

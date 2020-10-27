@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Product Color Image Variation
+Plugin Name: Product Swatches Slider
 Plugin URI: http://wordpress.org/plugins/hello-dolly/
 Description: This Plugin change the product image in relation the to selected color
 Author: Lorenzo De Donato
