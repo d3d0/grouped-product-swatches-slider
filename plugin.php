@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Product Swatches Slider
-Plugin URI: http://wordpress.org/plugins/hello-dolly/
+Plugin URI: https://github.com/d3d0/product-swatches-slider
 Description: This Plugin change the product image in relation the to selected color
 Author: Lorenzo De Donato
 Version: 1.0.0

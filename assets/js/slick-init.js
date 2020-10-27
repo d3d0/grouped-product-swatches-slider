@@ -1,6 +1,5 @@
 jQuery(document).ready(function($){
 	var $slider = $('.slider-container');
-  var $progressBar = $('.progress');
 
 	$slider.on('init', function(event, slick){
 		 	if (slick.slideCount == 1) var calc = ( 0 / (slick.slideCount) ) * 100;
