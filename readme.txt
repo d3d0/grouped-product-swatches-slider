@@ -7,4 +7,4 @@ Requires at least: 4.6
 
 == Description ==
 
-This plugin show a grouped product content slider in the archive product page.
+This plugin show all product variations image and info in a grouped content slider in the archive product page.
